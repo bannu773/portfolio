@@ -16,7 +16,7 @@ function App() {
     <ThemeProvider theme={lightTheme}>
 
     <Switch>
-      <Route exact path="/portfolio/#" component={Main}/>
+      <Route exact path="/portfolio" component={Main}/>
       <Route exact path="/about" component={AboutPage}/>
       <Route exact path="/blog" component={BlogPage}/>
       <Route exact path="/work" component={WorkPage}/>
