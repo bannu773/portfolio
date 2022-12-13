@@ -16,6 +16,8 @@ height: 55vh;
 display: flex;
 
 
+
+
 background: linear-gradient(
     to right,
     ${props => props.theme.body} 50%,

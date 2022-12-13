@@ -10,6 +10,7 @@ import PowerButton from '../subComponents/PowerButton'
 import astronaut from '../assets/Images/spaceman.png'
 
 
+import arrow from '../assets/Images/84738-arrow.gif'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -59,8 +60,13 @@ position: absolute;
 left: calc(5rem + 5vw);
 top: 10rem;
 
-font-family : Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
-font-style:italic;
+font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+font-style: italic;
+
+`
+
+const Gif = styled.span`
+
 
 `
 
@@ -78,17 +84,36 @@ const AboutPage = () => {
         <img src={astronaut} alt="spaceman" />
       </Spaceman>
       <Main>
-      I'm a third-year graduate of computer science and engineering.
+      <div>
+       <Gif>
+       <img src={arrow}  height={40} alt='arrow'/>
+       </Gif>
+      I'm a Third-year graduate of computer science and engineering.
       <br />
+      <Gif>
+       <img src={arrow}  height={40} alt='arrow'/>
+       </Gif>
 I love making new connections to learn new things.
-<br /> <br />
- I launched a YouTube channel in December 2020 and now has over 20,000 viewings.
+<br /> 
+<Gif>
+       <img src={arrow}  height={40} alt='arrow'/>
+       </Gif>
+       I'm a mediocre programmer.
 <br />
-I began learning video editing in November 2020, which provides more insight into the company.
-<br /> <br />
-I have learning about blender which is about 3D editing and designing
+<Gif>
+       <img src={arrow}  height={40} alt='arrow'/>
+       </Gif>
+       Answered arround 500 problems in Geeks for geeks and leetcode
+<br /> <Gif>
+       <img src={arrow}  height={40} alt='arrow'/>
+       </Gif>
+       I am a Front end Developer
 <br />
+<Gif>
+       <img src={arrow}  height={40} alt='arrow'/>
+       </Gif>
 l enjoy the challenges that enable me to grow.
+      </div>
       </Main>
 </Box>
 

@@ -20,7 +20,7 @@ align-items: center;
     flex-direction: column;
     gap: 2rem;
     padding-left: 5%;
-   padding-top: 20%;
+   padding-top: 30%;
    
    
   }
@@ -141,7 +141,7 @@ Really in Love with Animated things.
 <Description>
 <strong>Skills</strong>
 <p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+Html, Css, Js, React, Redux, Bootstrap, Tailwind, Firebase ,C++, Python, Java
 </p>
 </Description>
 <Description>
